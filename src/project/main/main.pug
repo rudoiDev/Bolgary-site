@@ -1,0 +1,156 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		title Bolgaria_site
+		link(rel="apple-touch-icon", sizes="180x180", href="../img/ico/apple-touch-icon.png")
+		link(rel="icon", type="image/png", sizes="32x32", href="../img/ico/favicon-32x32.png")
+		link(rel="icon", type="image/png", sizes="16x16", href="../img/ico/favicon-16x16.png")
+		link(rel="manifest", href="../img/ico/site.webmanifest")
+		link(rel='stylesheet', href="../normalize.css")
+		link(rel='stylesheet', href="main.css")
+		<link rel="stylesheet" href="https://use.fontawesome.com/0279959ac4.css" media="all">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	body 
+		include ../data/header
+		.main_img 
+			h1.animate__animated._anim-no-hide Болгария <br> 
+				span ждет вас
+			.main_btn
+				<i class="fa fa-arrow-down" aria-hidden="true"></i>
+		h2.animate__animated._anim-no-hide Наши преимущества
+		.main_achieves 
+			.achieve.animate__animated._anim-no-hide
+				.achieve_img
+					img(src='img/advantage_one.png')
+				.achieve_heading Надежность
+				.achieve_description Мы всегда придем к вам на помощь в решении самых неоднозначных вопросов
+			.achieve.animate__animated._anim-no-hide
+				.achieve_img
+					img(src='img/advantage_two.png')
+				.achieve_heading Достоверность
+				.achieve_description Достоверность - главный принцип нашей работы. Мы знаем все тонкости переезда в Болгарию и оформления соответствующих документов
+			.achieve.animate__animated._anim-no-hide
+				.achieve_img
+					img(src='img/advantage_three.png')
+				.achieve_heading Компетентность
+				.achieve_description Наши специалисты с большим опытом работы помогут разобраться во всех юридических тонкостях переезда на ПМЖ в Болгарию
+
+		.main_moving
+			.moving_wrapper
+				.move_heading
+					h3.animate__animated._anim-no-hide Переезд в Болгарию
+					p «Если Вам не нравится то место, где вы находитесь - смените его, Вы же не дерево» <br><br>
+						span Джим Рон
+				.move_description
+					<i class="fa fa-caret-up" aria-hidden="true"></i>
+					<i class="fa fa-caret-down" aria-hidden="true"></i>
+					p Пришло время и перед Вами стоит вопрос <br>
+						span Как переехать в Болгарию на ВНЖ или ПМЖ?
+				.move_ask
+					h3.animate__animated._anim-no-hide Мы знаем ответ <br>
+						span Подберем для Вас оптимальный вариант и предложим лучшие условия!
+				button.move_btn Узнать больше
+		.main_services 
+			h2.animate__animated._anim-no-hide Недвижимость и транспортные услуги
+			.service_wrapper
+				img(src='img/img_one.png' class='service_img-one')
+				img(src='img/img_two.png' class='service_img-two')
+				img(src='img/img_three.png' class='service_img-three')
+				.service_description 
+					img(src='img/icon_img.png' class='service_icon')
+					h3.animate__animated._anim-no-hide Мечтаете о доме на Солнечном берегу?
+					p Или хотите выгодно инвестировать в  заграничную недвижимость? В любом случае - подходящий вариант уже ждет Вас! Большой выбор объектов жилой и коммерческой недвижимости и профессиональный сервис позволит провести сделку с удовольствием и получить нужный результат
+				.service_description 
+					p Если Ваши чемоданы уже собраны и Вы готовы к переезду, рады предложить Вам транспортные услуги по перевозке личный вещей в Болгарию. Для успешного размещения на новом месте жительства мы поможем перевести Ваши вещи в сохранности
+			button.service_btn Узнать больше
+
+		.main_carousel
+			h2.animate__animated._anim-no-hide Отзывы наших клиентов 
+			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active" data-bs-interval="2000">
+						<div class="person">
+							<img src="img/photo.png" alt="#" class="person__img-person">
+								<ul class="person__name">
+									<li class="person__description-one">
+										<p class="person__first-name">Диана Апасова</p>
+										<p class="person__vk">vk.com/apasova</p>
+									</li>
+									<li class="person__description-two">
+										<p class="person__city">Москва</p>
+										<p class="person__city-arrow"><i class="fa fa-arrow-right" aria-hidden="true"></i></p>
+										<p class="person__city-name">София</p>
+									</li>
+								</ul>
+								<div class="person-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+								</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="person">
+							<img src="img/photo.png" alt="#" class="person__img-person">
+								<ul class="person__name">
+									<li class="person__description-one">
+										<p class="person__first-name">Диана Апасова</p>
+										<p class="person__vk">vk.com/apasova</p>
+									</li>
+									<li class="person__description-two">
+										<p class="person__city">Москва</p>
+										<p class="person__city-arrow"><i class="fa fa-arrow-right" aria-hidden="true"></i></p>
+										<p class="person__city-name">София</p>
+									</li>
+								</ul>
+								<div class="person-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+								</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="person">
+							<img src="img/photo.png" alt="#" class="person__img-person">
+								<ul class="person__name">
+									<li class="person__description-one">
+										<p class="person__first-name">Диана Апасова</p>
+										<p class="person__vk">vk.com/apasova</p>
+									</li>
+									<li class="person__description-two">
+										<p class="person__city">Москва</p>
+										<p class="person__city-arrow"><i class="fa fa-arrow-right" aria-hidden="true"></i></p>
+										<p class="person__city-name">София</p>
+									</li>
+								</ul>
+								<div class="person-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+								</div>
+						</div>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+					<i class="fa fa-angle-left" aria-hidden="true"></i>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+					<i class="fa fa-angle-right" aria-hidden="true"></i>
+				</button>
+			</div>
+		.main_form
+			.form_wrapper
+				h2.animate__animated._anim-no-hide Есть вопросы по переезду в болгарию?
+				h3.animate__animated._anim-no-hide Мы проконсультируем <br> вас бесплатно
+				<i class="fa fa-caret-down" aria-hidden="true"></i>
+				form(action="#")
+					input(type='text', placeholder='Имя', maxlength="20", required, class='animate__animated _anim-no-hide')
+					input(type='email', placeholder='E-mail' required, class='animate__animated _anim-no-hide')
+					input(type='tel', placeholder='Телефон', maxlength="20", class='animate__animated _anim-no-hide')
+					input(type='submit', value='Заказать консультацию', class='form_submit animate__animated _anim-no-hide') 
+		script(src='main.js')
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+		include ../data/footer 
